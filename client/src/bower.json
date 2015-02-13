@@ -1,0 +1,26 @@
+{
+  "name": "Hapi-Mongoose-Angular",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.3.3",
+    "angular-cookies": "~1.3.4",
+    "angular-animate": "~1.3.4",
+    "angular-ui-router": "~0.2.13",
+    "angular-translate": "~2.2.0",
+    "ngStorage": "~0.2.0",
+    "bootstrap-filestyle": "~1.1.2",
+    "ui-bootstrap": "~0.12.0",
+    "angular-growl": "~0.4.0",
+    "angular-sanitize": "~1.3.4",
+    "ngstorage": "~0.3.0",
+    "angular-bootstrap": "~0.12.0",
+    "angular-utils-pagination": "~0.4.0",
+    "angular-ui-utils": "~0.1.1",
+    "bootstrap": "~3.3.1",
+    "jquery": "~2.1.1"
+  }
+}
