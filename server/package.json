@@ -16,5 +16,16 @@
     "mongoose": "^3.8.23",
     "mongoose-auto-increment": "^3.2.0",
     "nodemailer": "^0.7.1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "socket.io",
+    "angular"
+  ],
+  "author": {
+    "name": "gaurav gupta",
+    "email": "gaurav_bng@hotmail.com",
+    "website": "www.cronj.com"
   }
 }
