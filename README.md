@@ -14,7 +14,7 @@ Run the following command in root directory of an app in command prompt.
 
 ###### *Install node packages*
 
-server/ node install
+server/ npm install
 
 ###### *Install bower components*
 
