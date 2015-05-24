@@ -55,8 +55,7 @@ User.plugin(autoIncrement.plugin, {
 });
 
 User.statics.saveUser = function(requestData, callback) {
-    var user = new this(requestData);
-    user.save(callback);
+    this.create(requestData, callback);
 };
 
 User.statics.updateUser = function(user, callback) {

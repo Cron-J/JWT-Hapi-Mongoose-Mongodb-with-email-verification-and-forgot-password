@@ -13,7 +13,7 @@
     "joi": "^5.1.0",
     "jsonwebtoken": "^3.2.2",
     "moment": "^2.9.0",
-    "mongoose": "^3.8.23",
+    "mongoose": "3.8.x",
     "mongoose-auto-increment": "^3.2.0",
     "nodemailer": "^0.7.1"
   },
