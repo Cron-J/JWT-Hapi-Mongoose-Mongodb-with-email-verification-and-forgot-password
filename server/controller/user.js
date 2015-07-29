@@ -128,7 +128,7 @@ exports.forgotPassword = {
 
 exports.verifyEmail = {
     handler: function(request, reply) {
-        Jwt.verify(request.headers.authorization.split(" ")[1], privateKey, function(err, decoded) {
+        Jwt.verify(request.headers.authorization, privateKey, function(err, decoded) {
             if(decoded === undefined) return reply(Boom.forbidden("invalid verification link"));
             if(decoded.scope[0] != "Customer") return reply(Boom.forbidden("invalid verification link"));
             User.findUserByIdAndUserName(decoded.id, decoded.userName, function(err, user){
